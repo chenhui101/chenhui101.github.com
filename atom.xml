@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Tom Preston-Werner</title>
+ <link href="http://51buck/atom.xml" rel="self"/>
+ <link href="http://51buck/"/>
+ <updated>2015-02-26T09:52:48+08:00</updated>
+ <id>http://51buck/</id>
+ <author>
+   <name>陈辉</name>
+   <email>chenhui101@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>markdown测试</title>
+   <link href="http://51buck/posts/2015-02-19-markdown.html"/>
+   <updated>2015-02-19T00:00:00+08:00</updated>
+   <id>http://51buck/posts/markdown</id>
+   <content type="html">&lt;h1 id=&quot;id-section&quot;&gt;欢迎使用马克飞象&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;@(示例笔记本)[马克飞象&lt;/td&gt;
+      &lt;td&gt;帮助&lt;/td&gt;
+      &lt;td&gt;Markdown]&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;功能丰富&lt;/strong&gt; ：支持高亮代码块、&lt;em&gt;LaTex&lt;/em&gt; 公式、流程图，本地图片上传甚至截图粘贴，工作学习好帮手；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;得心应手&lt;/strong&gt; ：简洁高效的编辑器，提供桌面&lt;a href=&quot;https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop&quot;&gt;离线客户端&lt;/a&gt;，支持移动端 Web；&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;深度整合&lt;/strong&gt; ：支持选择笔记本和添加标签，支持从印象笔记跳转编辑，轻松管理。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#id-section&quot;&gt;欢迎使用马克飞象&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#id-markdown&quot;&gt;Markdown简介&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-section-1&quot;&gt;代码块&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-latex-&quot;&gt;LaTex 公式&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-section-2&quot;&gt;表格&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-section-3&quot;&gt;流程图&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-section-4&quot;&gt;复选框&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#id-section-5&quot;&gt;印象笔记相关&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-section-6&quot;&gt;笔记本和标签&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-section-7&quot;&gt;笔记标题&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-section-8&quot;&gt;快捷编辑&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-section-9&quot;&gt;数据同步&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-section-10&quot;&gt;离线存储&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#id-section-11&quot;&gt;编辑器相关&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-section-12&quot;&gt;设置&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#id-section-13&quot;&gt;快捷键&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#id-section-14&quot;&gt;关于收费&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#id-section-15&quot;&gt;反馈与建议&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;id-markdown&quot;&gt;Markdown简介&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— &lt;a href=&quot;https://zh.wikipedia.org/wiki/Markdown&quot;&gt;维基百科&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为&lt;strong&gt;粗体&lt;/strong&gt;或者&lt;em&gt;斜体&lt;/em&gt;，创建一个&lt;a href=&quot;http://www.example.com&quot;&gt;链接&lt;/a&gt;或一个脚注&lt;sup id=&quot;fnref:demo&quot;&gt;&lt;a href=&quot;#fn:demo&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;。下面列举了几个高级功能，更多语法请按&lt;code&gt;Ctrl + /&lt;/code&gt;查看帮助。 &lt;/p&gt;
+
+&lt;h3 id=&quot;id-section-1&quot;&gt;代码块&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;@requires_authorization
+def somefunc(param1='', param2=0):
+    '''A docstring'''
+    if param1 &amp;gt; param2: # interesting
+        print 'Greater'
+    return (param2 - param1 + 1) or None
+class SomeClass:
+    pass
+&amp;gt;&amp;gt;&amp;gt; message = '''interpreter
+... prompt'''
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;id-latex-&quot;&gt;LaTex 公式&lt;/h3&gt;
+
+&lt;p&gt;可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;  x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} &lt;/script&gt;
+
+&lt;h3 id=&quot;id-section-2&quot;&gt;表格&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Item&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Value&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Qty&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Computer&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1600 USD&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Phone&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;12 USD&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Pipe&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1 USD&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;234&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;id-section-3&quot;&gt;流程图&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-flow&quot;&gt;st=&amp;gt;start: Start
+e=&amp;gt;end
+op=&amp;gt;operation: My Operation
+cond=&amp;gt;condition: Yes or No?
+
+st-&amp;gt;op-&amp;gt;cond
+cond(yes)-&amp;gt;e
+cond(no)-&amp;gt;op
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;以及时序图:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-sequence&quot;&gt;Alice-&amp;gt;Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob--&amp;gt;Alice: I am good thanks!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;提示：&lt;/strong&gt;想了解更多，请查看&lt;strong&gt;流程图&lt;/strong&gt;&lt;a href=&quot;http://adrai.github.io/flowchart.js/&quot;&gt;语法&lt;/a&gt;以及&lt;strong&gt;时序图&lt;/strong&gt;&lt;a href=&quot;http://bramp.github.io/js-sequence-diagrams/&quot;&gt;语法&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;id-section-4&quot;&gt;复选框&lt;/h3&gt;
+
+&lt;p&gt;使用 &lt;code&gt;- [ ]&lt;/code&gt; 和 &lt;code&gt;- [x]&lt;/code&gt; 语法可以创建复选框，实现 todo-list 等功能。例如：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[x] 已完成事项&lt;/li&gt;
+  &lt;li&gt;[ ] 待办事项1&lt;/li&gt;
+  &lt;li&gt;[ ] 待办事项2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;目前支持尚不完全，在印象笔记中勾选复选框是无效、不能同步的，所以必须在&lt;strong&gt;马克飞象&lt;/strong&gt;中修改 Markdown 原文才可生效。下个版本将会全面支持。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;id-section-5&quot;&gt;印象笔记相关&lt;/h2&gt;
+
+&lt;h3 id=&quot;id-section-6&quot;&gt;笔记本和标签&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;增加了&lt;code&gt;@(笔记本)[标签A|标签B]&lt;/code&gt;语法, 以选择笔记本和添加标签。 &lt;strong&gt;绑定账号后&lt;/strong&gt;， 输入&lt;code&gt;(&lt;/code&gt;自动会出现笔记本列表，请从中选择。&lt;/p&gt;
+
+&lt;h3 id=&quot;id-section-7&quot;&gt;笔记标题&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;会自动使用文档内出现的第一个标题作为笔记标题。例如本文，就是第一行的 &lt;code&gt;欢迎使用马克飞象&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;id-section-8&quot;&gt;快捷编辑&lt;/h3&gt;
+&lt;p&gt;保存在印象笔记中的笔记，右上角会有一个红色的编辑按钮，点击后会回到&lt;strong&gt;马克飞象&lt;/strong&gt;中打开并编辑该笔记。&lt;br /&gt;
+&amp;gt;&lt;strong&gt;注意：&lt;/strong&gt;目前用户在印象笔记中单方面做的任何修改，马克飞象是无法自动感知和更新的。所以请务必回到马克飞象编辑。&lt;/p&gt;
+
+&lt;h3 id=&quot;id-section-9&quot;&gt;数据同步&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;通过&lt;strong&gt;将Markdown原文以隐藏内容保存在笔记中&lt;/strong&gt;的精妙设计，实现了对Markdown的存储和再次编辑。既解决了其他产品只是单向导出HTML的单薄，又规避了服务端存储Markdown带来的隐私安全问题。这样，服务端仅作为对印象笔记 API调用和数据转换之用。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;隐私声明：用户所有的笔记数据，均保存在印象笔记中。马克飞象不存储用户的任何笔记数据。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;id-section-10&quot;&gt;离线存储&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;使用浏览器离线存储将内容实时保存在本地，不必担心网络断掉或浏览器崩溃。为了节省空间和避免冲突，已同步至印象笔记并且不再修改的笔记将删除部分本地缓存，不过依然可以随时通过&lt;code&gt;文档管理&lt;/code&gt;打开。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;虽然浏览器存储大部分时候都比较可靠，但印象笔记作为专业云存储，更值得信赖。以防万一，&lt;strong&gt;请务必经常及时同步到印象笔记&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;id-section-11&quot;&gt;编辑器相关&lt;/h2&gt;
+
+&lt;h3 id=&quot;id-section-12&quot;&gt;设置&lt;/h3&gt;
+
+&lt;p&gt;右侧系统菜单（快捷键&lt;code&gt;Ctrl + M&lt;/code&gt;）的&lt;code&gt;设置&lt;/code&gt;中，提供了界面字体、字号、自定义CSS、vim/emacs 键盘模式等高级选项。&lt;/p&gt;
+
+&lt;h3 id=&quot;id-section-13&quot;&gt;快捷键&lt;/h3&gt;
+
+&lt;p&gt;帮助    &lt;code&gt;Ctrl + /&lt;/code&gt;&lt;br /&gt;
+同步文档    &lt;code&gt;Ctrl + S&lt;/code&gt;&lt;br /&gt;
+创建文档    &lt;code&gt;Ctrl + Alt + N&lt;/code&gt;&lt;br /&gt;
+最大化编辑器    &lt;code&gt;Ctrl + Enter&lt;/code&gt;&lt;br /&gt;
+预览文档 &lt;code&gt;Ctrl + Alt + Enter&lt;/code&gt;&lt;br /&gt;
+文档管理    &lt;code&gt;Ctrl + O&lt;/code&gt;&lt;br /&gt;
+系统菜单    &lt;code&gt;Ctrl + M&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;加粗    &lt;code&gt;Ctrl + B&lt;/code&gt;&lt;br /&gt;
+插入图片    &lt;code&gt;Ctrl + G&lt;/code&gt;&lt;br /&gt;
+插入链接    &lt;code&gt;Ctrl + L&lt;/code&gt;&lt;br /&gt;
+提升标题    &lt;code&gt;Ctrl + H&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;id-section-14&quot;&gt;关于收费&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;为新用户提供 10 天的试用期，试用期过后需要&lt;a href=&quot;maxiang.info/vip.html&quot;&gt;续费&lt;/a&gt;才能继续使用。未购买或者未及时续费，将不能同步新的笔记。之前保存过的笔记依然可以编辑。&lt;/p&gt;
+
+&lt;h2 id=&quot;id-section-15&quot;&gt;反馈与建议&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;微博：&lt;a href=&quot;http://weibo.com/u/2788354117&quot;&gt;@马克飞象&lt;/a&gt;，&lt;a href=&quot;http://weibo.com/ggock&quot; title=&quot;开发者个人账号&quot;&gt;@GGock&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;邮箱：&lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#104;&amp;#117;&amp;#115;&amp;#116;&amp;#103;&amp;#111;&amp;#099;&amp;#107;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#104;&amp;#117;&amp;#115;&amp;#116;&amp;#103;&amp;#111;&amp;#099;&amp;#107;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;感谢阅读这份帮助文档。请点击右上角，绑定印象笔记账号，开启全新的记录与分享体验吧。&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:demo&quot;&gt;
+      &lt;p&gt;这是一个示例脚注。请查阅 &lt;a href=&quot;https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes&quot;&gt;MultiMarkdown 文档&lt;/a&gt; 关于脚注的说明。 &lt;strong&gt;限制：&lt;/strong&gt; 印象笔记的笔记内容使用 &lt;a href=&quot;https://dev.yinxiang.com/doc/articles/enml.php&quot;&gt;ENML&lt;/a&gt; 格式，基于 HTML，但是不支持某些标签和属性，例如id，这就导致&lt;code&gt;脚注&lt;/code&gt;和&lt;code&gt;TOC&lt;/code&gt;无法正常点击。 &lt;a href=&quot;#fnref:demo&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>matrix一期总结</title>
+   <link href="http://51buck/posts/2015-01-20-matrix-I-summary.html"/>
+   <updated>2015-01-20T00:00:00+08:00</updated>
+   <id>http://51buck/posts/matrix-I-summary</id>
+   <content type="html">&lt;p&gt;半年时间写了几个服务器，收获不少。有如下心得。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;系统想清楚再开发其实就容易很多。&lt;/li&gt;
+  &lt;li&gt;不要在头脑不清楚的时候写复杂核心逻辑，不然bug会多得爽死你。&lt;/li&gt;
+  &lt;li&gt;上线一定跑valgrind，不要忘掉invaild read/write提示，有可能是潜在的崩溃。&lt;/li&gt;
+  &lt;li&gt;与其它系统耦合度高的系统开发，一定要加全日志和验证工具，为的是迅速定位问题，降低沟通成本。&lt;/li&gt;
+  &lt;li&gt;数据结构按业务尽量分开，不然混在一起扩展性维护性很差。&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>第一篇</title>
+   <link href="http://51buck/posts/2014-12-31-first-article.html"/>
+   <updated>2014-12-31T00:00:00+08:00</updated>
+   <id>http://51buck/posts/first-article</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/2014-12-31-first-article/Buck_The_Character.jpg&quot; alt=&quot;highSchoolInWinter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;开博的想法已经很久了，赶在2014结束前开起来。&lt;/p&gt;
+
+&lt;h1 id=&quot;id-section&quot;&gt;关于目的&lt;/h1&gt;
+
+&lt;h1 id=&quot;id-section-1&quot;&gt;关于内容&lt;/h1&gt;
+
+&lt;h2 id=&quot;id-section-2&quot;&gt;感想&lt;/h2&gt;
+
+&lt;h2 id=&quot;id-section-3&quot;&gt;总结&lt;/h2&gt;
+
+&lt;h2 id=&quot;id-section-4&quot;&gt;笔记&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>前一篇</title>
+   <link href="http://51buck/posts/2010-07-14-first-thoughts-on-aesthetics.html"/>
+   <updated>2010-07-14T00:00:00+08:00</updated>
+   <id>http://51buck/posts/first-thoughts-on-aesthetics</id>
+   <content type="html">&lt;h1 id=&quot;id-sensationreason&quot;&gt;有限的感观(sensation)，无限的理智(reason)&lt;/h1&gt;
+
+&lt;p&gt;今天的早上梦里的那种感觉已经是这两个月第两次了，这次一定要记录下来了。同样感觉的梦相信以前也有，但我早以忘记了。这两次梦里的感觉很美很美，虽然场景不同，但是就是美，说不出来的美。 &lt;br /&gt;
+这种美是我在现实生活从来没有体会到的。 &lt;br /&gt;
+这使我坚信一定存在一个远远超越人类感观（视，听，触，味，嗅）以外的世界。 &lt;br /&gt;
+人的理智就像是一个深邃浩瀚的宇宙，而五种感观只是我们偷窥她的五扇小小的窗口。 &lt;br /&gt;
+也许人只有在死后才有可能一揽她的全貌！  &lt;br /&gt;
+举个例子：人类的视觉 &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;人的视觉是有限的&lt;/strong&gt; : 无法观察到可见光以外的红外光与紫外光 &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;人的视觉有时是错误的&lt;/strong&gt; : 如光发生折射时 观察到的海市蜃楼就是假象 &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;人的视觉是衰退的&lt;/strong&gt; : 随着年纪的增加 视力会慢慢变弱 &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;也许只有在我们死去或梦里感觉到的世界才是真实的，活着和醒着的世界是被这五种感观严重扭曲的，不真实的，不完整的！ &lt;/p&gt;
+
+&lt;p&gt;这两次的梦除了具有不可描述的美感外，还有一个共同点，纯粹! &lt;br /&gt;
+除了我和梦境里的其它人物，物体，仿佛再也感觉不到其它任何东西了。 &lt;/p&gt;
+
+&lt;p&gt;简单描述我的最近的这两次特别的梦 &lt;br /&gt;
+## 梦一： &lt;br /&gt;
+我（准第三视角）悬浮在漆黑的夜空中央，背后是深深的黑暗和未知，而我的前方是一团极为璀璨的，无比光芒的星云。星云的光浑洒在我的身上，星云的外围能看到一颗颗更亮的星星，星云好像正在慢慢的膨胀，我仿佛能感觉星云的温暖，感觉她会在不久之后将我融入。星云极为极为的明亮，但一点也不刺眼。 &lt;/p&gt;
+
+&lt;h2 id=&quot;id-section&quot;&gt;梦二：&lt;/h2&gt;
+&lt;p&gt;我（第一视角）的前方两边是两座高山，高高的，窄窄的，一座山在画面的最左边，一座在最右边，山是绿色的，遍布绿色 茂盛的树。两山之间有一片狭长的平地，上面覆盖着嫩绿 嫩绿的草地，我好像能看到两个陌生的男人在走动，梦境里的重点是左边那座山山脚下的一棵银白的树，树上开满了花，像是樱花，但比樱花明亮。对，还有风，有点一微风，我能感觉到花在动，感觉到一丝凉意。 &lt;/p&gt;
+
+&lt;h1 id=&quot;id-the-ability-to-appreciate-beauty&quot;&gt;欣赏美的能力：the ability to appreciate beauty&lt;/h1&gt;
+
+&lt;p&gt;这两次的梦真的很美 ，很美。。。。。。 &lt;br /&gt;
+美得让我想到另外一个问题，生活中的人人都在抱怨痛苦与丑恶，但其实快乐和美是自已给自已的，是自发的(self-generated)，我们缺乏的也许是发现欣赏快乐与美的能力。 &lt;br /&gt;
+举个例子：&lt;br /&gt;
+你问一个9岁的小男孩生日礼物让他选任天堂的wii还是选20岁的苏菲玛索，他一定会选wii，因为此时的他还未被赋予某种能力–这种能力能使得这个乳嗅未干的小男孩有朝一日能体会成年女人的美，而这种美与快乐将远远超出wii游戏机几个数量级。 &lt;br /&gt;
+这样说来，和整个自然宇宙相比，或许我们大部分的凡人都像那个9岁的小男样那样，仍远未被赋予足够的、完整的欣赏美的能力！ &lt;/p&gt;
+
+&lt;p&gt;思考比较零散，写得断断续续的。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
